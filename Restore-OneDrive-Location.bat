@@ -1,6 +1,8 @@
-:: Created by: Shawn Brink & Kaio HSG
-:: Original: https://www.tenforums.com/tutorials/23504-users-personal-folders-restore-default-location-windows-10-a.html
-:: GitHub: https://github.com/kaiohsg/RestoreOneDriveLocation
+:: Created by: Shawn Brink
+:: https://www.tenforums.com/tutorials/23504-users-personal-folders-restore-default-location-windows-10-a.html
+
+:: Modified by: Kaio HSG
+:: https://github.com/kaiohsg/RestoreOneDriveLocation
 
 @echo off
 title Restore OneDrive Location
@@ -14,7 +16,6 @@ if %ErrorLevel% neq 0 (
    del "%Temp%\%~n0.vbs"
    exit
 )
-pushd "%~dp0"
 taskkill /f /im explorer.exe > nul
 timeout /t 2 /nobreak > nul
 echo Pictures:
@@ -37,7 +38,7 @@ reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders" 
 reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders" /v "Desktop" /t REG_EXPAND_SZ /d %%USERPROFILE%%"\Desktop" /f
 attrib +r -s -h "%USERPROFILE%\Desktop" /S /D
 echo =================================================
-echo Finish.
 timeout /t 1 /nobreak > nul
 start explorer.exe
+echo Finish.
 pause > nul
