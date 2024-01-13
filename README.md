@@ -1,3 +1,6 @@
+[![Version](https://img.shields.io/badge/version-1.0-green)](https://github.com/KaioHSG/restore-onedrive-location/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/KaioHSG/restore-onedrive-location/total)](https://github.com/KaioHSG/restore-onedrive-location/releases)
+
 # Restore OneDrive Location
 
 *Return all "UserProfile\OneDrive" folders to default.*
