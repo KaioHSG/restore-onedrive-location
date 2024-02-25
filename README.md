@@ -7,9 +7,8 @@
 
 ## How to use?
 
-**1**. Download a version of [**Restore OneDrive Location**](https://github.com/kaiohsg/restore-one-drive-location/releases/latest).
-
-**2**. Run **`Restore-OneDrive-Location.bat`**.
+1. Download a version of [**Restore OneDrive Location**](https://github.com/kaiohsg/restore-one-drive-location/releases/latest).
+2. Run **`Restore-OneDrive-Location.bat`**.
 
 ## Credits
 
