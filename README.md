@@ -1,6 +1,6 @@
 [![Release](https://img.shields.io/github/v/release/KaioHSG/restore-onedrive-location)](https://github.com/KaioHSG/restore-onedrive-location/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/KaioHSG/restore-onedrive-location/total)](https://github.com/KaioHSG/restore-onedrive-location/releases)
-[![VirusTotal](https://img.shields.io/badge/virus_total-status-navy)](https://www.virustotal.com/gui/file/ccd7d71eb578f316a9d5e6339413b5b1bd38f1de7603e1858d2c4bc2807851c8)
+[![VirusTotal](https://img.shields.io/badge/virustotal-status-navy)](https://www.virustotal.com/gui/file/ccd7d71eb578f316a9d5e6339413b5b1bd38f1de7603e1858d2c4bc2807851c8)
 
 # Restore OneDrive Location
 
